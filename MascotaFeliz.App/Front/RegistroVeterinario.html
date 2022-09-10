@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro Veterinario</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet">
+
+    <style>
+        :root {
+            --colorTextos: #0a0223;
+        }
+
+        *,
+        ::before,
+        ::after {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+}
+
+        body {
+            font-family: 'Roboto';
+            background: #4B79A1;
+            background: -webkit-linear-gradient(to right, #283E51, #4B79A1); 
+            background: linear-gradient(to right, #283E51, #4B79A1);
+            height: 650px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        h2 {
+            text-align: center;
+            font-weight: 700;
+            margin-bottom: -30px;
+            margin-top: 20px;
+            font-size: 27px;
+        }
+        
+        form {
+            background: #fff;
+            padding: 5px;
+            box-shadow: 0 0 6px 0 rgba(255, 255, 255, 0.8);
+            border-radius: 10px;
+        }
+
+        .form{
+            width: 100%;
+            margin: auto;
+        }
+
+        form .grupo{
+            position: relative;
+            margin: 45px ;
+        }
+
+        input{
+            background: none;
+            color: #283E51;
+            font-size: 18px;
+            padding: 8px 8px 8px 5px;
+            display: block;
+            width: 100%;
+            border: none;
+            border-bottom: 1px solid var(--colorTextos);
+        }
+
+        input:focus{
+            outline: none;
+            color: #283E51;
+
+        }
+
+        label{
+            color: var(--colorTextos);
+            font-size: 16px;
+            position: absolute;
+            left: 5px;
+            top: 10px;
+            transition: 0.5s ease all;
+            pointer-events: none;
+        }
+
+        input:focus~label,
+        input:valid~label{
+            top: -14px;
+            font-size: 12px;
+            color: #283E51;
+        }
+
+        .barra{
+            position: relative;
+            display: block;
+            width: 100%;
+
+        }
+
+        .barra::before{
+            content: "";
+            height: 2px;
+            width: 0%;
+            bottom: 0;
+            position: absolute;
+            background: linear-gradient(to right, #B06AB3, #4568DC);
+            transition: 0.3s ease width;
+            left: 0;
+        }
+
+        input:focus~.barra::before{
+            width: 100%;
+        }
+
+        button{
+            font-family: 'roboto';
+            background: #4568DC;
+            background: -webkit-linear-gradient(to right, #283E51, #4568DC);
+            background: linear-gradient(to right, #283E51, #4568DC);
+            border: none;
+            display: block;
+            width: 80%;
+            margin: 10px auto;
+            color: #fff;
+            height: 40px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        form p{
+            height: 0px;
+            text-align: center;
+            font-size: 15px;
+            padding: 10%;
+            margin-bottom: 15px;
+        }
+
+    </style>
+</head>
+<body>
+    <form action="" >
+        <div class="form">
+            <h2>Datos del veterinario </h2>
+            <div class="grupo">
+                <input type="text" name="" id="name" required><span class="barra"></span>
+                <label for="">Nombres</label>
+            </div>
+
+            <div class="grupo">
+            <input type="text" name="" id="name" required><span class="barra"></span>
+            <label for="">Apellidos</label>
+            </div>  
+
+            <div class="grupo">
+            <input type="text" name="" id="name" required><span class="barra"></span>
+            <label for="">Dirección</label>  
+            </div>
+
+            <div class="grupo">
+            <input type="text" name="" id="name" required><span class="barra"></span>
+            <label for="">Teléfono</label>  
+            </div>
+            
+            <div class="grupo">
+                <input type="text" name="" id="name" required><span class="barra"></span>
+                <label for="">Tarjeta Profesional</label>  
+            </div>  
+            
+            <button type="submit">Registrar</button>
+        </div>
+
+        <p>Dar click en el botón para registrar los datos.</p>
+
+      </form> 
+      
+</body>
+</html>
