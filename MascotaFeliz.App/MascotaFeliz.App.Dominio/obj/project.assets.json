@@ -180,19 +180,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Daniel Casvill\\.nuget\\packages\\": {}
+    "C:\\Users\\jcpena\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Mascotas\\MascotaFeliz.App\\MascotaFeliz.App.Dominio\\MascotaFeliz.App.Dominio.csproj",
+      "projectUniqueName": "C:\\Users\\jcpena\\Documents\\MascotaFelizApp\\MascotaFeliz.App\\MascotaFeliz.App.Dominio\\MascotaFeliz.App.Dominio.csproj",
       "projectName": "MascotaFeliz.App.Dominio",
-      "projectPath": "C:\\Mascotas\\MascotaFeliz.App\\MascotaFeliz.App.Dominio\\MascotaFeliz.App.Dominio.csproj",
-      "packagesPath": "C:\\Users\\Daniel Casvill\\.nuget\\packages\\",
-      "outputPath": "C:\\Mascotas\\MascotaFeliz.App\\MascotaFeliz.App.Dominio\\obj\\",
+      "projectPath": "C:\\Users\\jcpena\\Documents\\MascotaFelizApp\\MascotaFeliz.App\\MascotaFeliz.App.Dominio\\MascotaFeliz.App.Dominio.csproj",
+      "packagesPath": "C:\\Users\\jcpena\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\jcpena\\Documents\\MascotaFelizApp\\MascotaFeliz.App\\MascotaFeliz.App.Dominio\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Daniel Casvill\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\jcpena\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.0"
