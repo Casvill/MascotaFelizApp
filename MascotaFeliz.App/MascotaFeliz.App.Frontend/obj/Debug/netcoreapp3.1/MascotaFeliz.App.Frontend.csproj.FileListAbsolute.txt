@@ -82,3 +82,6 @@ C:\Users\jcpena\Documents\MascotaFelizApp\MascotaFeliz.App\MascotaFeliz.App.Fron
 C:\Users\jcpena\Documents\MascotaFelizApp\MascotaFeliz.App\MascotaFeliz.App.Frontend\bin\Debug\netcoreapp3.1\MascotaFeliz.App.Persistencia.pdb
 C:\Users\jcpena\Documents\MascotaFelizApp\MascotaFeliz.App\MascotaFeliz.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Duenos\DetallesDuenos.cshtml.g.cs
 C:\Users\jcpena\Documents\MascotaFelizApp\MascotaFeliz.App\MascotaFeliz.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Duenos\EditarDuenos.cshtml.g.cs
+C:\Users\jcpena\Documents\MascotaFelizApp\MascotaFeliz.App\MascotaFeliz.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Veterinarios\DetallesVeterinarios.cshtml.g.cs
+C:\Users\jcpena\Documents\MascotaFelizApp\MascotaFeliz.App\MascotaFeliz.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Veterinarios\EditarVeterinarios.cshtml.g.cs
+C:\Users\jcpena\Documents\MascotaFelizApp\MascotaFeliz.App\MascotaFeliz.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Veterinarios\ListaVeterinarios.cshtml.g.cs
