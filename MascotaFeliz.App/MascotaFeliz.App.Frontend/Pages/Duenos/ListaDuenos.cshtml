@@ -7,6 +7,10 @@
           
             <th>Nombre</th>
             <th>Apellido</th>
+            <th>Dirección</th>
+            <th>Telefono</th>
+            <th>Email</th>
+            
         </tr>
         @foreach (var dueno in Model.listaDuenos)
         {
@@ -14,6 +18,12 @@
                
                 <td>@dueno.Nombres</td>
                 <td>@dueno.Apellidos</td>
+                <td>@dueno.Direccion</td>
+                <td>@dueno.Telefono</td>
+                <td>@dueno.Correo</td>
+                
+
+
 
                 <td>
                     <a class="btn btn-primary table-btn" asp-page="./DetallesDuenos" asp-route-duenoId="@dueno.Id">
