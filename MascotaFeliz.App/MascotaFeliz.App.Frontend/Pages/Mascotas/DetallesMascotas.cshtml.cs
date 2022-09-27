@@ -9,20 +9,20 @@ using MascotaFeliz.App.Persistencia;
 
 namespace MascotaFeliz.App.Frontend.Pages
 {
-    public class DetallesVeterinariosModel : PageModel
+    public class DetallesMascotasModel : PageModel
     {
-        private readonly IRepositorioVeterinario _repoVeterinario;
+        private readonly IRepositorioMascota _repoMascota;
 
-        public Veterinario veterinario {get;set;}
+        public Mascota mascota {get;set;}
 
-        public DetallesVeterinariosModel(){
-            this._repoVeterinario = new RepositorioVeterinario(new Persistencia.AppContext());
+        public DetallesMascotasModel(){
+            this._repoMascota = new RepositorioMascota(new Persistencia.AppContext());
         }
 
-        public IActionResult OnGet(int veterinarioId)
+        public IActionResult OnGet(int mascotaId)
         {
-            veterinario = _repoVeterinario.GetVeterinario(veterinarioId);
-            if (veterinario == null)
+            mascota = _repoMascota.GetMascota(mascotaId);
+            if (mascota == null)
             {
                 return RedirectToPage("./NotFound");
             }

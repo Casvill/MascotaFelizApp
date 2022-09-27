@@ -16,15 +16,15 @@ namespace MascotaFeliz.App.Consola
         static void Main(string[] args)
         {
             //Console.WriteLine("Hello World!");
-            AddDueno();
-            AddVeterinario();
-            AddMascota();
-            AddHistoria();
-            AddVisitaPyP();
-            BuscarMascota(1);
-            BuscarMascotas();
-            AsignarVeterinario();
-            AsignarVisitaPyP();
+            //AddDueno();
+            //AddVeterinario();
+            //AddMascota();
+            //AddHistoria();
+            //AddVisitaPyP();
+            //BuscarMascota(1);
+            //BuscarMascotas();
+            //AsignarVeterinario();
+            //AsignarVisitaPyP();
         }
 
         private static void AddDueno()

@@ -62,9 +62,14 @@ namespace MascotaFeliz.App.Persistencia
             return _appContext.Mascotas;
         }
 
-        public Mascota GetMascota(int idMascota)
+       /* public Mascota GetMascota(int idMascota)
         {
             return _appContext.Mascotas.FirstOrDefault(d => d.Id == idMascota);
+        }*/
+
+         public Mascota GetMascota(int idMascota)
+        {
+            return _appContext.Mascotas.Include("Dueno").Include("Veterinario").Include("Historia").FirstOrDefault(d => d.Id == idMascota);
         }
 
         public Mascota UpdateMascota(Mascota mascota)
