@@ -64,8 +64,13 @@ namespace MascotaFeliz.App.Persistencia
 
         public Historia GetHistoria(int idHistoria)
         {
-            return _appContext.Historias.FirstOrDefault(d => d.Id == idHistoria);
+            return _appContext.Historias.Include(a=> a.VisitasPyP).FirstOrDefault(d => d.Id == idHistoria);
         }
+
+        /*public Historia GetHistoria(int idHistoria)
+        {
+            return _appContext.Historias.FirstOrDefault(d => d.Id == idHistoria);
+        }*/
 
         public Historia UpdateHistoria(Historia historia)
         {
