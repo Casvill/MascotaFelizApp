@@ -1,6 +1,5 @@
 C:\Users\jcpena\Documents\MascotaFelizApp\MascotaFeliz.App\MascotaFeliz.App.Frontend\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\Users\jcpena\Documents\MascotaFelizApp\MascotaFeliz.App\MascotaFeliz.App.Frontend\bin\Debug\netcoreapp3.1\appsettings.json
-C:\Users\jcpena\Documents\MascotaFelizApp\MascotaFeliz.App\MascotaFeliz.App.Frontend\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
 C:\Users\jcpena\Documents\MascotaFelizApp\MascotaFeliz.App\MascotaFeliz.App.Frontend\bin\Debug\netcoreapp3.1\MascotaFeliz.App.Frontend.exe
 C:\Users\jcpena\Documents\MascotaFelizApp\MascotaFeliz.App\MascotaFeliz.App.Frontend\bin\Debug\netcoreapp3.1\MascotaFeliz.App.Frontend.deps.json
 C:\Users\jcpena\Documents\MascotaFelizApp\MascotaFeliz.App\MascotaFeliz.App.Frontend\bin\Debug\netcoreapp3.1\MascotaFeliz.App.Frontend.runtimeconfig.json
@@ -9,7 +8,6 @@ C:\Users\jcpena\Documents\MascotaFelizApp\MascotaFeliz.App\MascotaFeliz.App.Fron
 C:\Users\jcpena\Documents\MascotaFelizApp\MascotaFeliz.App\MascotaFeliz.App.Frontend\bin\Debug\netcoreapp3.1\MascotaFeliz.App.Frontend.pdb
 C:\Users\jcpena\Documents\MascotaFelizApp\MascotaFeliz.App\MascotaFeliz.App.Frontend\bin\Debug\netcoreapp3.1\MascotaFeliz.App.Frontend.Views.dll
 C:\Users\jcpena\Documents\MascotaFelizApp\MascotaFeliz.App\MascotaFeliz.App.Frontend\bin\Debug\netcoreapp3.1\MascotaFeliz.App.Frontend.Views.pdb
-C:\Users\jcpena\Documents\MascotaFelizApp\MascotaFeliz.App\MascotaFeliz.App.Frontend\obj\Debug\netcoreapp3.1\MascotaFeliz.App.Frontend.csprojAssemblyReference.cache
 C:\Users\jcpena\Documents\MascotaFelizApp\MascotaFeliz.App\MascotaFeliz.App.Frontend\obj\Debug\netcoreapp3.1\MascotaFeliz.App.Frontend.AssemblyInfoInputs.cache
 C:\Users\jcpena\Documents\MascotaFelizApp\MascotaFeliz.App\MascotaFeliz.App.Frontend\obj\Debug\netcoreapp3.1\MascotaFeliz.App.Frontend.AssemblyInfo.cs
 C:\Users\jcpena\Documents\MascotaFelizApp\MascotaFeliz.App\MascotaFeliz.App.Frontend\obj\Debug\netcoreapp3.1\MascotaFeliz.App.Frontend.csproj.CoreCompileInputs.cache
@@ -30,7 +28,6 @@ C:\Users\jcpena\Documents\MascotaFelizApp\MascotaFeliz.App\MascotaFeliz.App.Fron
 C:\Users\jcpena\Documents\MascotaFelizApp\MascotaFeliz.App\MascotaFeliz.App.Frontend\obj\Debug\netcoreapp3.1\MascotaFeliz.App.Frontend.RazorTargetAssemblyInfo.cs
 C:\Users\jcpena\Documents\MascotaFelizApp\MascotaFeliz.App\MascotaFeliz.App.Frontend\obj\Debug\netcoreapp3.1\MascotaFeliz.App.Frontend.Views.pdb
 C:\Users\jcpena\Documents\MascotaFelizApp\MascotaFeliz.App\MascotaFeliz.App.Frontend\obj\Debug\netcoreapp3.1\staticwebassets\MascotaFeliz.App.Frontend.StaticWebAssets.Manifest.cache
-C:\Users\jcpena\Documents\MascotaFelizApp\MascotaFeliz.App\MascotaFeliz.App.Frontend\obj\Debug\netcoreapp3.1\staticwebassets\MascotaFeliz.App.Frontend.StaticWebAssets.xml
 C:\Users\jcpena\Documents\MascotaFelizApp\MascotaFeliz.App\MascotaFeliz.App.Frontend\obj\Debug\netcoreapp3.1\MascotaFeliz.App.Frontend.dll
 C:\Users\jcpena\Documents\MascotaFelizApp\MascotaFeliz.App\MascotaFeliz.App.Frontend\obj\Debug\netcoreapp3.1\MascotaFeliz.App.Frontend.pdb
 C:\Users\jcpena\Documents\MascotaFelizApp\MascotaFeliz.App\MascotaFeliz.App.Frontend\obj\Debug\netcoreapp3.1\MascotaFeliz.App.Frontend.genruntimeconfig.cache
@@ -88,3 +85,7 @@ C:\Users\jcpena\Documents\MascotaFelizApp\MascotaFeliz.App\MascotaFeliz.App.Fron
 C:\Users\jcpena\Documents\MascotaFelizApp\MascotaFeliz.App\MascotaFeliz.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Mascotas\DetallesMascotas.cshtml.g.cs
 C:\Users\jcpena\Documents\MascotaFelizApp\MascotaFeliz.App\MascotaFeliz.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Mascotas\EditarMascotas.cshtml.g.cs
 C:\Users\jcpena\Documents\MascotaFelizApp\MascotaFeliz.App\MascotaFeliz.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Mascotas\ListaMascotas.cshtml.g.cs
+C:\Users\jcpena\Documents\MascotaFelizApp\MascotaFeliz.App\MascotaFeliz.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Mascotas\AsignarDueno.cshtml.g.cs
+C:\Users\jcpena\Documents\MascotaFelizApp\MascotaFeliz.App\MascotaFeliz.App.Frontend\bin\Debug\netcoreapp3.1\MascotaFeliz.App.Frontend.StaticWebAssets.xml
+C:\Users\jcpena\Documents\MascotaFelizApp\MascotaFeliz.App\MascotaFeliz.App.Frontend\obj\Debug\netcoreapp3.1\MascotaFeliz.App.Frontend.csproj.AssemblyReference.cache
+C:\Users\jcpena\Documents\MascotaFelizApp\MascotaFeliz.App\MascotaFeliz.App.Frontend\obj\Debug\netcoreapp3.1\MascotaFeliz.App.Frontend.GeneratedMSBuildEditorConfig.editorconfig

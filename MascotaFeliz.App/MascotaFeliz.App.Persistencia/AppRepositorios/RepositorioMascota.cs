@@ -39,10 +39,10 @@ namespace MascotaFeliz.App.Persistencia
             _appContext.SaveChanges();
         }
 
-       public IEnumerable<Mascota> GetAllMascotas()
+       /*public IEnumerable<Mascota> GetAllMascotas()
         {
             return GetAllMascotas_();
-        }
+        }*/
 
         public IEnumerable<Mascota> GetMascotasPorFiltro(string filtro)
         {
@@ -57,9 +57,14 @@ namespace MascotaFeliz.App.Persistencia
             return Mascotas;
         }
 
-        public IEnumerable<Mascota> GetAllMascotas_()
+        /*public IEnumerable<Mascota> GetAllMascotas_()
         {
             return _appContext.Mascotas;
+        }*/
+
+        public IEnumerable<Mascota> GetAllMascotas()
+        {
+            return _appContext.Mascotas.Include("Dueno").Include("Veterinario").Include("Historia");
         }
 
        /* public Mascota GetMascota(int idMascota)

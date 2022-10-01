@@ -11,6 +11,7 @@
             <th>Raza</th>
             <th>Especie</th>
             <th>Dueño</th>
+            <th>Veterinario</th>
             
             
         </tr>
@@ -21,20 +22,28 @@
             <td>@mascota.Color</td>
             <td>@mascota.Raza</td>
             <td>@mascota.Especie</td>
+            <td>@mascota.Raza</td>
+            <td>@mascota.Especie</td>
+            
             
            
             
 
             <td>
-                    <a class="btn btn-primary table-btn" asp-page="./DetallesMascotas" asp-route-mascotaId="@mascota.Id">
-                        Detalle Mascota
-                    </a>
-                </td>
-                <td>
-                    <a class="btn btn-primary table-btn" asp-page="./EditarMascotas" asp-route-mascotaId="@mascota.Id">
-                        Editar Mascota
-                    </a>
-                </td>
+                <a class="btn btn-primary table-btn" asp-page="./DetallesMascotas" asp-route-mascotaId="@mascota.Id">
+                    Detalle Mascota
+                </a>
+            </td>
+            <td>
+                <a class="btn btn-primary table-btn" asp-page="./EditarMascotas" asp-route-mascotaId="@mascota.Id">
+                    Editar Mascota
+                </a>
+            </td>
+            <td>
+                <a class="btn btn-primary table-btn" asp-page="./AsignarDueno" asp-route-mascotaId="@mascota.Id">
+                    Asignar Dueño
+                </a>
+            </td>
 
         </tr>
         
