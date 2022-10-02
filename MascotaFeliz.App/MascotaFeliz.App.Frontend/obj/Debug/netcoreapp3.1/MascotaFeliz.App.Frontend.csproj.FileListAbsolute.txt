@@ -85,7 +85,7 @@ C:\Users\jcpena\Documents\MascotaFelizApp\MascotaFeliz.App\MascotaFeliz.App.Fron
 C:\Users\jcpena\Documents\MascotaFelizApp\MascotaFeliz.App\MascotaFeliz.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Mascotas\DetallesMascotas.cshtml.g.cs
 C:\Users\jcpena\Documents\MascotaFelizApp\MascotaFeliz.App\MascotaFeliz.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Mascotas\EditarMascotas.cshtml.g.cs
 C:\Users\jcpena\Documents\MascotaFelizApp\MascotaFeliz.App\MascotaFeliz.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Mascotas\ListaMascotas.cshtml.g.cs
-C:\Users\jcpena\Documents\MascotaFelizApp\MascotaFeliz.App\MascotaFeliz.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Mascotas\AsignarDueno.cshtml.g.cs
-C:\Users\jcpena\Documents\MascotaFelizApp\MascotaFeliz.App\MascotaFeliz.App.Frontend\bin\Debug\netcoreapp3.1\MascotaFeliz.App.Frontend.StaticWebAssets.xml
 C:\Users\jcpena\Documents\MascotaFelizApp\MascotaFeliz.App\MascotaFeliz.App.Frontend\obj\Debug\netcoreapp3.1\MascotaFeliz.App.Frontend.csproj.AssemblyReference.cache
 C:\Users\jcpena\Documents\MascotaFelizApp\MascotaFeliz.App\MascotaFeliz.App.Frontend\obj\Debug\netcoreapp3.1\MascotaFeliz.App.Frontend.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jcpena\Documents\MascotaFelizApp\MascotaFeliz.App\MascotaFeliz.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\VisitasPyP\EditarVisitasPyP.cshtml.g.cs
+C:\Users\jcpena\Documents\MascotaFelizApp\MascotaFeliz.App\MascotaFeliz.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\VisitasPyP\ListaVisitasPyP.cshtml.g.cs

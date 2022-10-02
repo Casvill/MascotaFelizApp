@@ -1,9 +1,9 @@
 using Microsoft.EntityFrameworkCore;
 using MascotaFeliz.App.Dominio;
 
-namespace MascotaFeliz.App.Persistencia
+namespace  MascotaFeliz.App.Persistencia
 {
-    public class AppContext : DbContext
+    public class AppContext: DbContext
     {
         public DbSet<Persona> Personas {get;set;}
         public DbSet<Veterinario> Veterinarios {get;set;}
@@ -16,8 +16,11 @@ namespace MascotaFeliz.App.Persistencia
         {
             if (!optionsBuilder.IsConfigured)
             {
+                //optionsBuilder
+                //.UseSqlServer("Data Source = mascotafelizdbciclo3.mssql.somee.com; Initial Catalog = mascotafelizdbciclo3;user id=lorenaacuna92_SQLLogin_1;pwd=4eb7jvg4l8");
                 optionsBuilder
                 .UseSqlServer("Data Source = (localdb)\\MSSQLLocalDB; Initial Catalog = MascotaFelizData");
+                
             }
         }
     }

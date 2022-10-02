@@ -8,11 +8,9 @@ namespace MascotaFeliz.App.Persistencia
 {
     public interface IRepositorioVisitaPyP
     {
-        IEnumerable<VisitaPyP> GetAllVisitasPyP();
         VisitaPyP AddVisitaPyP(VisitaPyP visitaPyP);
-        VisitaPyP UpdateVisitaPyP(VisitaPyP visitaPyP);
-        void DeleteVisitaPyP(int idVisitaPyP);
         VisitaPyP GetVisitaPyP(int idVisitaPyP);
-        // IEnumerable<VisitaPyP> GetVisitasPyPPorFiltro(string filtro);
+        Historia AsignarHistoria(int idVisitaPyP, int idHistoria);
+        VisitaPyP UpdateVisitaPyP(VisitaPyP visitaPyP);
     }
 }

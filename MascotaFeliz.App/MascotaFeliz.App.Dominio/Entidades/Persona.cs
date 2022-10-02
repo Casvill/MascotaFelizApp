@@ -8,5 +8,5 @@ namespace MascotaFeliz.App.Dominio
         public string Apellidos {get;set;}
         public string Direccion {get;set;}
         public string Telefono {get;set;}
-    }
+    }    
 }

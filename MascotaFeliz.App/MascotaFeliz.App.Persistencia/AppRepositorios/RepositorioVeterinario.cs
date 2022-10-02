@@ -30,56 +30,58 @@ namespace MascotaFeliz.App.Persistencia
             return veterinarioAdicionado.Entity;
         }
 
+        public Veterinario UpdateVeterinario(Veterinario veterinario)
+        {
+            var veterinarioEncontrado = _appContext.Veterinarios.FirstOrDefault(v => v.Id == veterinario.Id);
+            if (veterinarioEncontrado != null)
+            {
+                veterinarioEncontrado.Nombres = veterinario.Nombres;
+                veterinarioEncontrado.Apellidos = veterinario.Apellidos;
+                veterinarioEncontrado.Direccion = veterinario.Direccion;
+                veterinarioEncontrado.Telefono = veterinario.Telefono;
+                veterinarioEncontrado.TarjetaProfesional = veterinario.TarjetaProfesional;
+                _appContext.SaveChanges();
+            }
+            return veterinarioEncontrado;
+        }
+      
+        public Veterinario GetVeterinario(int idVeterinario)
+        {
+            return _appContext.Veterinarios.FirstOrDefault(v => v.Id == idVeterinario);
+        }
+
+         public IEnumerable<Veterinario> GetAllVeterinarios()
+        {
+            return GetAllVeterinarios_();
+        }
+
+         public IEnumerable<Veterinario> GetAllVeterinarios_()
+        {
+            return _appContext.Veterinarios;
+        }
+
         public void DeleteVeterinario(int idVeterinario)
         {
-            var veterinarioEncontrado = _appContext.Veterinarios.FirstOrDefault(d => d.Id == idVeterinario);
+            var veterinarioEncontrado = _appContext.Veterinarios.FirstOrDefault(v => v.Id == idVeterinario);
             if (veterinarioEncontrado == null)
                 return;
             _appContext.Veterinarios.Remove(veterinarioEncontrado);
             _appContext.SaveChanges();
         }
 
-       public IEnumerable<Veterinario> GetAllVeterinarios()
-        {
-            return GetAllVeterinarios_();
-        }
-
         public IEnumerable<Veterinario> GetVeterinariosPorFiltro(string filtro)
         {
-            var Veterinarios = GetAllVeterinarios(); // Obtiene todos los saludos
-            if (Veterinarios != null)  //Si se tienen saludos
+            var veterinarios = GetAllVeterinarios(); // Obtiene todos los vet
+            if (veterinarios != null)  //Si se tienen vet
             {
                 if (!String.IsNullOrEmpty(filtro)) // Si el filtro tiene algun valor
                 {
-                    Veterinarios = Veterinarios.Where(s => s.Nombres.Contains(filtro));
+                    veterinarios = veterinarios.Where(s => s.Nombres.Contains(filtro));
                 }
             }
-            return Veterinarios;
+            return veterinarios;
         }
 
-        public IEnumerable<Veterinario> GetAllVeterinarios_()
-        {
-            return _appContext.Veterinarios;
-        }
-
-        public Veterinario GetVeterinario(int idVeterinario)
-        {
-            return _appContext.Veterinarios.FirstOrDefault(d => d.Id == idVeterinario);
-        }
-
-        public Veterinario UpdateVeterinario(Veterinario Veterinario)
-        {
-            var veterinarioEncontrado = _appContext.Veterinarios.FirstOrDefault(d => d.Id == Veterinario.Id);
-            if (veterinarioEncontrado != null)
-            {
-                veterinarioEncontrado.Nombres = Veterinario.Nombres;
-                veterinarioEncontrado.Apellidos = Veterinario.Apellidos;
-                veterinarioEncontrado.Direccion = Veterinario.Direccion;
-                veterinarioEncontrado.Telefono = Veterinario.Telefono;
-                //veterinarioEncontrado.Correo = Veterinario.Correo;
-                _appContext.SaveChanges();
-            }
-            return veterinarioEncontrado;
-        }     
+        
     }
 }

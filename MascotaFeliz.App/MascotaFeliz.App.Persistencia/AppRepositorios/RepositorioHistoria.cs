@@ -5,8 +5,9 @@ using MascotaFeliz.App.Dominio;
 using Microsoft.EntityFrameworkCore;
 
 namespace MascotaFeliz.App.Persistencia
+
 {
-    public class RepositorioHistoria : IRepositorioHistoria
+    public class RepositorioHistoria: IRepositorioHistoria
     {
         /// <summary>
         /// Referencia al contexto de Historia
@@ -23,6 +24,11 @@ namespace MascotaFeliz.App.Persistencia
             _appContext = appContext;
         }
 
+        public Historia GetHistoria(int idHistoria)
+        {
+            return _appContext.Historias.FirstOrDefault(h => h.Id == idHistoria);
+        }
+
         public Historia AddHistoria(Historia historia)
         {
             var historiaAdicionado = _appContext.Historias.Add(historia);
@@ -30,59 +36,12 @@ namespace MascotaFeliz.App.Persistencia
             return historiaAdicionado.Entity;
         }
 
-        public void DeleteHistoria(int idHistoria)
+        public IEnumerable<VisitaPyP> GetAllVisitas(int idHistoria)
         {
-            var historiaEncontrado = _appContext.Historias.FirstOrDefault(d => d.Id == idHistoria);
-            if (historiaEncontrado == null)
-                return;
-            _appContext.Historias.Remove(historiaEncontrado);
-            _appContext.SaveChanges();
+            var visitas =  _appContext.VisitasPyP.Where(v => v.Historia.Id == idHistoria);
+             _appContext.SaveChanges();
+            return visitas;
         }
-
-       public IEnumerable<Historia> GetAllHistorias()
-        {
-            return GetAllHistorias_();
-        }
-
-        // public IEnumerable<Historia> GetHistoriasPorFiltro(string filtro)
-        // {
-        //     var historias = GetAllHistorias(); // Obtiene todos los saludos
-        //     if (historias != null)  //Si se tienen saludos
-        //     {
-        //         if (!String.IsNullOrEmpty(filtro)) // Si el filtro tiene algun valor
-        //         {
-        //             historias = historias.Where(s => s.Nombres.Contains(filtro));
-        //         }
-        //     }
-        //     return historias;
-        // }
-
-        public IEnumerable<Historia> GetAllHistorias_()
-        {
-            return _appContext.Historias;
-        }
-
-        public Historia GetHistoria(int idHistoria)
-        {
-            return _appContext.Historias.Include(a=> a.VisitasPyP).FirstOrDefault(d => d.Id == idHistoria);
-        }
-
-        /*public Historia GetHistoria(int idHistoria)
-        {
-            return _appContext.Historias.FirstOrDefault(d => d.Id == idHistoria);
-        }*/
-
-        public Historia UpdateHistoria(Historia historia)
-        {
-            var historiaEncontrado = _appContext.Historias.FirstOrDefault(d => d.Id == historia.Id);
-            if (historiaEncontrado != null)
-            {
-                historiaEncontrado.FechaInicial = historia.FechaInicial;
-                historiaEncontrado.VisitasPyP = historia.VisitasPyP;
-
-                _appContext.SaveChanges();
-            }
-            return historiaEncontrado;
-        }     
+               
     }
 }
