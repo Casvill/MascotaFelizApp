@@ -134,3 +134,5 @@ C:\Users\jcpena\Documents\MascotaFelizApp\MascotaFeliz.App\MascotaFeliz.App.Cons
 C:\Users\jcpena\Documents\MascotaFelizApp\MascotaFeliz.App\MascotaFeliz.App.Consola\obj\Debug\netcoreapp3.1\MascotaFeliz.App.Consola.dll
 C:\Users\jcpena\Documents\MascotaFelizApp\MascotaFeliz.App\MascotaFeliz.App.Consola\obj\Debug\netcoreapp3.1\MascotaFeliz.App.Consola.pdb
 C:\Users\jcpena\Documents\MascotaFelizApp\MascotaFeliz.App\MascotaFeliz.App.Consola\obj\Debug\netcoreapp3.1\MascotaFeliz.App.Consola.genruntimeconfig.cache
+C:\Users\jcpena\Documents\MascotaFelizApp\MascotaFeliz.App\MascotaFeliz.App.Consola\obj\Debug\netcoreapp3.1\MascotaFeliz.App.Consola.csproj.AssemblyReference.cache
+C:\Users\jcpena\Documents\MascotaFelizApp\MascotaFeliz.App\MascotaFeliz.App.Consola\obj\Debug\netcoreapp3.1\MascotaFeliz.App.Consola.GeneratedMSBuildEditorConfig.editorconfig

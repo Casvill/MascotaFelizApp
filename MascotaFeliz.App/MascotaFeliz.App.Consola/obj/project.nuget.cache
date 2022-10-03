@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "oqTF5K8JcG80oyeyknxVc76+5UC/+q2uh8XoCvfhjjkBX6QUq1NIF2nqP8Cr7Xnp+nFPLy3IXymZfyN3WdtVpw==",
+  "dgSpecHash": "cqvhYyvk88Zp+1OklLJnFI56ZHFq1qUUyDfufbAhMGeu2f8S1iI4rmz8mqhgRXgQAfraZ5dyZBJ7Z4wDpSKxNg==",
   "success": true,
   "projectFilePath": "C:\\Users\\jcpena\\Documents\\MascotaFelizApp\\MascotaFeliz.App\\MascotaFeliz.App.Consola\\MascotaFeliz.App.Consola.csproj",
   "expectedPackageFiles": [
@@ -99,7 +99,8 @@
     "C:\\Users\\jcpena\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\jcpena\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
     "C:\\Users\\jcpena\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
-    "C:\\Users\\jcpena\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
+    "C:\\Users\\jcpena\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512",
+    "C:\\Users\\jcpena\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.29\\microsoft.netcore.app.host.win-x64.3.1.29.nupkg.sha512"
   ],
   "logs": []
 }
