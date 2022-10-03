@@ -1,28 +1,31 @@
-﻿@page
+@page
 @model MascotaFeliz.App.Frontend.Pages.DetallesVeterinariosModel
 @{
 }
 
- <h1>Detalles del Veterinario</h1>
 
- <div>
+ <div class="card mt-5 text-center bg-muted" >
+  <div class="card-body">
+    <h1 class="card-title">Detalles de la mascota</h1>
+  </div>
+  <div class="card font-weight-bold">
     id:@Model.veterinario.Id
- </div>
-  <div>
+   </div>
+  <div class="card  font-weight-bold">
     Nombre:@Model.veterinario.Nombres
- </div>
-  <div>
+  </div>
+  <div class="card font-weight-bold">
     Apellido:@Model.veterinario.Apellidos
- </div>
- <div>
+  </div>
+  <div class="card font-weight-bold">
     Dirección:@Model.veterinario.Direccion
- </div>
- <div>
+  </div>
+  <div class="card font-weight-bold">
     Telefono:@Model.veterinario.Telefono
- </div>
- <div>
-    Tarjeta Profesional:@Model.veterinario.TarjetaProfesional
- </div>
+  </div>
+  <div class="card font-weight-bold">
+    Tarjeta Profesional:@Model.veterinario.TarjetaProfeisonal
+  </div>
+</div>
 
-
- <a asp-page="./ListaVeterinarios" class="btn-default">Lista de Veterinarios</a>
+ <a asp-page="./ListaVeterinarios" class="btn btn-primary table-btn mt-1">Lista de Veterinarios</a>
