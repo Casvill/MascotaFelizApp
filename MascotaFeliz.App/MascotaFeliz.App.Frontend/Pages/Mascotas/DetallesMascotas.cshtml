@@ -1,8 +1,50 @@
-﻿
-@page
+﻿@page
 @model MascotaFeliz.App.Frontend.Pages.DetallesMascotasModel
 @{
 }
+
+<!-- <div class="card mt-5 text-center bg-muted">
+    <div class="card-body">
+        <h1 class="card-title">Detalles de la mascota</h1>
+    </div>
+    <div class="card font-weight-bold">
+        id:@Model.mascota.Id
+    </div>
+    <div class="card  font-weight-bold">
+        Nombre:@Model.mascota.Nombre
+    </div>
+    <div class="card font-weight-bold">
+        Color:@Model.mascota.Color
+    </div>
+    <div class="card font-weight-bold">
+        Especie:@Model.mascota.Especie
+    </div>
+    <div class="card font-weight-bold">
+        Raza:@Model.mascota.Raza
+    </div>
+    <div class="card font-weight-bold">
+        Dueño:<a title="Ver detalles del dueño de @Model.mascota.Nombre" asp-page="/Duenos/DetallesDuenos"
+            asp-route-duenoId="@Model.mascota.Dueno.Id">@Model.mascota.Dueno.Nombres @Model.mascota.Dueno.Apellidos</a>
+    </div>
+    <div class="card font-weight-bold">
+        Veterinario:<a title="Ver detalles del veterinario de @Model.mascota.Nombre"
+            asp-page="/Veterinarios/DetallesVeterinarios"
+            asp-route-veterinarioId="@Model.mascota.Veterinario.Id">@Model.mascota.Veterinario.Nombres
+            @Model.mascota.Veterinario.Apellidos</a>
+    </div>
+</div>
+
+
+
+
+    
+    <a asp-page="./ListaMascotas" class="btn btn-primary table-btn mt-1">Lista de Mascotas</a>
+
+    <a asp-page="/VisitasPyP/ListaVisitasPyP" asp-route-mascotaId="@Model.mascota.Id"
+        class="btn btn-primary table-btn mt-1 submit submit-dueno">Historia Clínica</a> -->
+
+
+
 <h1> Detalles de la Mascota</h1>
 
 <div class="mainContainerDueno">
@@ -58,6 +100,6 @@
         </tr>
     </table>
 </div>
-<a asp-page="./ListaMascotas" class="btn btn-primary submit submit-dueno">Lista de Mascotas</a>
+<a asp-page="./ListaMascotas" class="btn btn-primary submit submit-dueno">Listado de Mascotas</a>
 
 <a asp-page="/VisitasPyP/ListaVisitasPyP" asp-route-mascotaId="@Model.mascota.Id" class="btn btn-primary submit submit-dueno">Historia Clínica</a>
