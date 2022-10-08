@@ -4,7 +4,7 @@
     int duenoId = Model.dueno.Id;
 }
 <h2 class="mt-5"> Agregar o editar dueños</h2>
-
+<hr>
 <form method="post" >
     <div class="form-group" >
         <input type="hidden" asp-for = "dueno.Id" />
@@ -19,9 +19,9 @@
         <label asp-for="dueno.Correo"></label>
         <input asp-for="dueno.Correo" class="form-control">
 
-        <button type="submit" class="btn btn-primary btn-lg btn-block mt-2">Grabar</button>
+        <!--<button type="submit" class="btn btn-primary btn-lg btn-block mt-2">Grabar</button>-->
     </div>
 
 </form>
-
+ <button type="submit" class="btn btn-primary">Grabar</button>
 <a asp-page="./ListaDuenos" class="btn btn-primary">Lista de Dueños </a>
