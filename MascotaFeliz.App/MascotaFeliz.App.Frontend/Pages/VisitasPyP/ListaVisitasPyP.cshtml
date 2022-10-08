@@ -4,7 +4,10 @@
 }
 
 <h1>Historia Clínica de @Model.mascota.Nombre</h1>
-<table class="table table-bordered">
+<hr>
+
+<!--<table class="table table-bordered">-->
+<table class="table table-striped table-bordered table-sm bg-light mt-3">    
     <tr>
         <th>Fecha de visita</th>
         <th>Temperatura</th>
@@ -37,6 +40,7 @@
 </table>
 
 <a asp-page="/VisitasPyP/EditarVisitasPyP" class="btn btn-primary submit submit-dueno" asp-route-mascotaId="@Model.mascota.Id">@Model.action</a>
+<a asp-page="/Mascotas/ListaMascotas" class="btn btn-primary table-btn mt-1">Lista de Mascotas</a>
 
 <script>
     let btnAddVisita = document.getElementById("btnAddVisita");

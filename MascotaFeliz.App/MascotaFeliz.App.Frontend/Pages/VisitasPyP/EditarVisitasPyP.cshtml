@@ -3,7 +3,7 @@
 @{
 }
 <h1 id="titleEdit">Editar VisitaPyP</h1>
-
+<hr>
 <form method="post" >
     <div class="form-group">
 
@@ -39,13 +39,15 @@
                 <option value="@veterinario.Id">@veterinario.Nombres @veterinario.Apellidos</option>
             }
         </select>
+        <br>
 
          @if(Model.mascota.Historia == null){
             <button type="submit" class="btn btn-primary submit submit-dueno">Crear Historia</button>   
         } else{
             <button type="submit" class="btn btn-primary submit submit-dueno">Registrar Visita</button>
         }
+        <a asp-page="./ListaVisitasPyP" asp-route-mascotaId="@Model.mascota.Id" class="btn btn-primary submit submit-dueno">Volver a historia clínica</a>
     </div>
 </form>
 
-<a asp-page="./ListaVisitasPyP" asp-route-mascotaId="@Model.mascota.Id" class="btn btn-primary submit submit-dueno">Volver a historia clínica</a>
+<!--<a asp-page="./ListaVisitasPyP" asp-route-mascotaId="@Model.mascota.Id" class="btn btn-primary submit submit-dueno">Volver a historia clínica</a>-->
